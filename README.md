@@ -118,9 +118,10 @@ cat autopcap_output/sample/sample_report.txt
 ---
 
 ## 🧑‍💻 Author
-Created by **Digi Jeff**  
+Created by **diGi**
+Discord: 0x3444
 Cybersecurity Analyst & Developer  
-💻 [github.com/digijeff](https://github.com/digijeff)
+
 
 ---
 
