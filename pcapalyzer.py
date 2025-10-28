@@ -9,8 +9,8 @@
 #   - HTTP object export via tshark (folder kept only if non-empty)
 #
 # Outputs:
-#   - autopcap_output/<pcap_stem>/<pcap_stem>_report.txt
-#   - autopcap_output/<pcap_stem>/extracted_http/  (ONLY if files exported)
+#   - pcapalyzer_output/<pcap_stem>/<pcap_stem>_report.txt
+#   - pcapalyzer_output/<pcap_stem>/extracted_http/  (ONLY if files exported)
 #
 import argparse
 import json
@@ -27,7 +27,7 @@ from pathlib import Path
 from typing import Dict, Any, List, Optional, Tuple
 
 BASE = Path(__file__).resolve().parent
-OUTDIR = BASE / "autopcap_output"
+OUTDIR = BASE / "pcapalyzer_output"
 OUTDIR.mkdir(parents=True, exist_ok=True)
 
 def which(cmd: str) -> bool:
@@ -680,6 +680,7 @@ def main():
     txt_path = render_text(prefix, pcap, outdir, summary, http_export_stats, zeek_stats, observation)
     print("[✓] Done.")
     print("  TXT:", txt_path.resolve())
+    print("Created by diGi - reach me on discord: 0x3444\n")
 
 if __name__ == "__main__":
     main()
