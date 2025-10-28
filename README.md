@@ -125,5 +125,4 @@ Cybersecurity Analyst & Developer
 
 ---
 
-## 📜 License
-MIT License © 2025 Digi Jeff
+
