@@ -124,5 +124,8 @@ Cybersecurity Analyst & Developer
 
 
 ---
-
+Although the main reason this script was created was leveraging local AI to give an observation along with the capture, I have included a light version and you can simply run it by
+```bash
+$ python3 pcapalyzer_light.py <file_name>
+```
 
